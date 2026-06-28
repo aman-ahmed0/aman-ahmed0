@@ -12,7 +12,7 @@
 </p> 
 
 - 🏢 I'm a Windows Support Engineer @ Microsoft
-- 🏢 Learning DevOps
+
 
 
 ### Connect with Me :
