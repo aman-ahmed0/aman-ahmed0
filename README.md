@@ -40,7 +40,7 @@ A Flask application with a Docker build-and-publish workflow and Terraform confi
 
 [Application](https://github.com/aman-ahmed0/webAppPy/blob/main/app.py) · [Workflow](https://github.com/aman-ahmed0/webAppPy/blob/main/.github/workflows/deploy.yml) · [Infrastructure](https://github.com/aman-ahmed0/webAppPy/blob/main/main.tf)
 
-### [HomeOffice Commerce](https://github.com/aman-ahmed0/homeoffice-commerce/tree/develop)
+### [HomeOffice Commerce](https://github.com/aman-ahmed0/homeoffice-commerce/)
 
 ![Status: Under development](https://img.shields.io/badge/Status-Under%20development-D4A017?style=flat-square)
 
