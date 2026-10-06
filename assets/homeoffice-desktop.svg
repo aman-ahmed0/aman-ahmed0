@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="326" viewBox="0 0 840 326" role="img" aria-labelledby="title desc">
+  <title id="title">HomeOffice Commerce source-defined architecture</title>
+  <desc id="desc">Application flow: Next.js to Flask to PostgreSQL. Helm packages the application. Separate Terraform modules define VPC, GKE, and Artifact Registry. Deployment is not verified.</desc>
+  <rect x="1" y="1" width="838" height="324" rx="12" fill="#101d31" stroke="#37506c"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="28" y="39" fill="#9dbad2" font-size="15" letter-spacing="1.5">APPLICATION / HELM PACKAGING</text>
+    <g fill="#19314c" stroke="#476787">
+      <rect x="28" y="61" width="224" height="108" rx="9"/>
+      <rect x="308" y="61" width="224" height="108" rx="9"/>
+      <rect x="588" y="61" width="224" height="108" rx="9"/>
+    </g>
+    <g fill="#f2f7fc" font-size="26" font-weight="600">
+      <text x="52" y="105">Next.js</text><text x="332" y="105">Flask</text><text x="612" y="105">PostgreSQL</text>
+    </g>
+    <g fill="#c1d1e2" font-size="18">
+      <text x="52" y="138">Frontend</text><text x="332" y="138">API / Gunicorn</text><text x="612" y="138">Database</text>
+    </g>
+    <path d="M254 115h40m-8-6 8 6-8 6M534 115h40m-8-6 8 6-8 6" fill="none" stroke="#71c5ee" stroke-width="2"/>
+    <path d="M28 196h784" stroke="#37506c"/>
+    <text x="28" y="227" fill="#9dbad2" font-size="15" letter-spacing="1.5">SEPARATE TERRAFORM DEFINITIONS / GOOGLE CLOUD</text>
+    <text x="28" y="268" fill="#e0ecf6" font-size="23">VPC</text>
+    <circle cx="108" cy="261" r="3" fill="#71c5ee"/>
+    <text x="136" y="268" fill="#e0ecf6" font-size="23">GKE</text>
+    <circle cx="217" cy="261" r="3" fill="#71c5ee"/>
+    <text x="245" y="268" fill="#e0ecf6" font-size="23">Artifact Registry</text>
+    <text x="28" y="302" fill="#9dbad2" font-size="15">Source definitions, not a live deployment map.</text>
+  </g>
+</svg>
