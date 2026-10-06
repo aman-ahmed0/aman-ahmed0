@@ -22,84 +22,96 @@
   <a href="Ahmed_Aman_CV.pdf" title="View Ahmed Aman's CV (PDF)"><img src="assets/document.svg" width="40" height="40" alt="">&nbsp;<strong>CV (PDF)</strong></a>
 </p>
 
-I'm based in **Cairo, Egypt**, with **6+ years of Windows and Microsoft 365 support experience** across Microsoft and Concentrix. My background is in performance troubleshooting, debugging, and technical escalations. I bring that diagnostic approach to hands-on **DevOps and cloud engineering** projects: building infrastructure, testing changes, and turning failures into repeatable safeguards.
+## My Skills
 
-**Open to DevOps and cloud engineering opportunities, especially remote roles that allow me to work from Egypt.**
+### <img src="assets/section-dot.svg" width="18" height="18" alt=""> Cloud Providers
 
-## Featured project: [HomeOffice Commerce](https://github.com/aman-ahmed0/homeoffice-commerce)
-
-**Completed portfolio implementation | Azure Kubernetes Service, Terraform and GitOps**
-
-A three-tier application (**Next.js, Flask and PostgreSQL**) deployed to **Azure Kubernetes Service (AKS)**. The project connects infrastructure provisioning, container builds, security checks and reviewed Kubernetes deployments.
-
-| Engineering area | What the project demonstrates |
-| --- | --- |
-| Infrastructure as code | Terraform provisions AKS, Azure Container Registry, the CI identity and role assignments. |
-| CI and quality gates | GitHub Actions checks Terraform and Helm, builds both images, runs start-up smoke tests, and scans secrets and vulnerabilities with Trivy. |
-| Cloud identity | CI authenticates to Azure with OIDC rather than a stored cloud password. Images are published to ACR with commit-SHA tags. |
-| GitOps delivery | Helm defines the deployment; Argo CD tracks `main`. Image changes go through a pull request, followed by a reviewed, manual sync. |
-| Kubernetes operations | Backend startup, readiness and liveness probes, resource limits, and a PostgreSQL StatefulSet with persistent Azure storage. |
-| Container hardening | Non-root containers, a distroless frontend runtime, pinned base images and pinned backend dependencies. |
-
-### Troubleshooting translated into engineering
-
-A backend deployment failed to start after a dependency change. The project now pins dependencies, selects the database driver explicitly, and runs a smoke test against a temporary PostgreSQL container before publishing. The incident and the OIDC sign-in issue are documented alongside the implementation.
-
-**[Architecture and walkthrough](https://github.com/aman-ahmed0/homeoffice-commerce#homeoffice-commerce)** · [CI workflow](https://github.com/aman-ahmed0/homeoffice-commerce/blob/main/.github/workflows/ci.yml) · [Terraform](https://github.com/aman-ahmed0/homeoffice-commerce/tree/main/infrastructure) · [Helm chart](https://github.com/aman-ahmed0/homeoffice-commerce/tree/main/charts/homeoffice-commerce) · [Incident lessons](https://github.com/aman-ahmed0/homeoffice-commerce#lessons-from-real-incidents)
-
-*This is a portfolio project, not a production service. The cluster is stopped between work sessions to control cost. Monitoring, TLS and automated database backups remain [documented next steps](https://github.com/aman-ahmed0/homeoffice-commerce#known-limitations-and-next-steps).*
-
-## Earlier project: [Python Web App](https://github.com/aman-ahmed0/webAppPy)
-
-A focused Flask project with a Docker image build-and-publish workflow and Terraform definitions for **AWS EC2**. It demonstrates container packaging and infrastructure provisioning, rather than a complete automated application deployment.
-
-[Workflow](https://github.com/aman-ahmed0/webAppPy/blob/73480cf74d78d7a51f6229cce78f5467f81d67d5/.github/workflows/deploy.yml) · [EC2 definition](https://github.com/aman-ahmed0/webAppPy/blob/73480cf74d78d7a51f6229cce78f5467f81d67d5/main.tf)
-
-## Technical toolkit
-
-<p>
-  <img src="assets/docker.svg" width="48" height="48" alt="Docker" title="Docker">&nbsp;
-  <img src="assets/kubernetes.svg" width="48" height="48" alt="Kubernetes" title="Kubernetes">&nbsp;
-  <img src="assets/helm.svg" width="48" height="48" alt="Helm" title="Helm">&nbsp;
-  <img src="assets/terraform.svg" width="48" height="48" alt="Terraform" title="Terraform">&nbsp;
-  <img src="assets/githubactions.svg" width="48" height="48" alt="GitHub Actions" title="GitHub Actions">&nbsp;
-  <img src="assets/azure.svg" width="48" height="48" alt="Azure" title="Azure">
+<p align="center">
+  <img src="assets/skill-amazonwebservices.svg" height="56" alt="AWS" title="AWS">
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/skill-azure.svg" height="56" alt="Microsoft Azure" title="Microsoft Azure">
 </p>
 
-| Context | Tools and technologies |
-| --- | --- |
-| Azure delivery project | AKS, ACR, Terraform, Docker, Helm, GitHub Actions, Argo CD, Trivy, OIDC, PostgreSQL |
-| Earlier AWS project | EC2, Terraform, Docker, GitHub Actions, Flask |
-| Scripting and broader training | Python, Bash, Ansible, Jenkins |
-| Professional troubleshooting | Windows architecture, memory management, performance and shell issues, debugging, Sysinternals |
+### <img src="assets/section-dot.svg" width="18" height="18" alt=""> CI/CD &amp; GitOps
 
-Project and training experience are distinct from my professional support background.
+<p align="center">
+  <img src="assets/skill-githubactions.svg" height="56" alt="GitHub Actions" title="GitHub Actions">
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/skill-jenkins.svg" height="56" alt="Jenkins" title="Jenkins">
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/skill-argocd.svg" height="56" alt="Argo CD" title="Argo CD">
+</p>
 
-## Professional foundation
+### <img src="assets/section-dot.svg" width="18" height="18" alt=""> Infrastructure as Code &amp; Automation
 
-**Microsoft / Support Engineer**  
-December 2021 to present
+<p align="center">
+  <img src="assets/skill-terraform.svg" height="56" alt="Terraform" title="Terraform">
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/skill-ansible.svg" height="56" alt="Ansible" title="Ansible">
+</p>
 
-Windows performance and shell troubleshooting, debugging, and technical escalations. Investigating potential product defects and communicating findings for resolution.
+### <img src="assets/section-dot.svg" width="18" height="18" alt=""> Containerization
 
-**Concentrix / Windows and Office Support Engineer**  
-December 2019 to December 2021
+<p align="center">
+  <img src="assets/skill-docker.svg" height="56" alt="Docker" title="Docker and Docker Compose">
+</p>
 
-Windows and Microsoft 365 support for German-speaking customers.
+### <img src="assets/section-dot.svg" width="18" height="18" alt=""> Container Orchestration
 
-**Languages:** German and English, fluent. Arabic, native.
+<p align="center">
+  <img src="assets/skill-kubernetes.svg" height="56" alt="Kubernetes" title="Kubernetes and AKS">
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/skill-helm.svg" height="56" alt="Helm" title="Helm">
+</p>
 
-## Credentials and learning
+### <img src="assets/section-dot.svg" width="18" height="18" alt=""> Programming / Scripting
 
-**[Certified Kubernetes Administrator](https://www.credly.com/badges/ef716503-154e-4014-a548-32d51cb12ca3/public_url)** · The Linux Foundation · September 2026  
-**[Azure Fundamentals](https://www.credly.com/badges/e10f9a4d-686b-40e6-9d73-f9471150ed21)** · Microsoft · January 2022
+<p align="center">
+  <img src="assets/skill-python.svg" height="56" alt="Python" title="Python">
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/skill-bash.svg" height="56" alt="Bash" title="Bash">
+</p>
 
-**Completed training:** DevOps Bootcamp, TechWorld with Nana, December 2024.
+### <img src="assets/section-dot.svg" width="18" height="18" alt=""> Databases
 
-**Previously earned:** Azure Administrator Associate (AZ-104), March 2022. Not currently active.
+<p align="center">
+  <img src="assets/skill-postgresql.svg" height="56" alt="PostgreSQL" title="PostgreSQL">
+</p>
+
+<sub>Skills developed through hands-on projects and training. Professional experience and credentials are detailed in my CV.</sub>
+
+## Projects
+
+<a href="https://github.com/aman-ahmed0/homeoffice-commerce">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/project-homeoffice-mobile.svg">
+    <img src="assets/project-homeoffice.svg" width="100%" alt="HomeOffice Commerce: completed Azure portfolio. Pull request, CI build/test/scan, ACR images, deployment pull request, reviewed manual Argo CD sync, and AKS. Next.js, Flask and PostgreSQL.">
+  </picture>
+</a>
+
+**[HomeOffice Commerce](https://github.com/aman-ahmed0/homeoffice-commerce)** brings together **AKS, Terraform, Helm, GitHub Actions and Argo CD** in a deployed three-tier portfolio application.
+
+- **Build safely:** start-up smoke tests, Trivy scans and passwordless Azure sign-in with OIDC.
+- **Deploy deliberately:** commit-SHA image tags, reviewed deployment changes and backend health probes.
+- **Learn from failures:** a backend crash led to pinned dependencies and a regression smoke test.
+
+[Explore project](https://github.com/aman-ahmed0/homeoffice-commerce) · [CI workflow](https://github.com/aman-ahmed0/homeoffice-commerce/blob/main/.github/workflows/ci.yml) · [Incident lessons](https://github.com/aman-ahmed0/homeoffice-commerce#lessons-from-real-incidents)
+
+<sub>Portfolio, not a production service. The cluster is stopped between sessions. Monitoring, TLS and automated backups are <a href="https://github.com/aman-ahmed0/homeoffice-commerce#known-limitations-and-next-steps">documented next steps</a>.</sub>
+
+### Earlier project
+
+**[Python Web App](https://github.com/aman-ahmed0/webAppPy)** is my earlier container-packaging and AWS provisioning project, not a complete automated deployment.
 
 ---
 
-**Career focus:** DevOps and cloud engineering, with an interest in platform engineering and reliability.
+<p align="center">
+  <strong>Open to DevOps &amp; Cloud Engineering opportunities</strong><br>
+  Especially remote roles from Egypt or abroad.
+</p>
 
-[LinkedIn](https://linkedin.com/in/ahmedaman1/) · [ahmedaman7@outlook.com](mailto:ahmedaman7@outlook.com) · [CV (PDF)](Ahmed_Aman_CV.pdf)
+<p align="center">
+  <a href="https://linkedin.com/in/ahmedaman1/">LinkedIn</a> &nbsp;&bull;&nbsp;
+  <a href="mailto:ahmedaman7@outlook.com">Email</a> &nbsp;&bull;&nbsp;
+  <a href="Ahmed_Aman_CV.pdf">CV (PDF)</a>
+</p>
