@@ -1,7 +1,7 @@
 <h1 align="center">Ahmed Aman</h1>
 
 <p align="center">
-  <strong>Support Engineer at Microsoft | Certified Kubernetes Administrator</strong>
+  <strong>DevOps/Cloud Engineer | Certified Kubernetes Administrator</strong>
 </p>
 
 <p align="center">
