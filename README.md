@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  From troubleshooting complex systems to building reliable cloud delivery workflows
+  Building reliable cloud infrastructure and delivery pipelines with Terraform, Kubernetes, and GitOps.
 </p>
 
 <p align="center">
