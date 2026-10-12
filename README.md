@@ -45,14 +45,14 @@
 
 **[Python Web App](https://github.com/aman-ahmed0/webAppPy)** is my earlier container-packaging and AWS provisioning project, not a complete automated deployment.
 
-
 ## 🛠️ Technologies & Tools
 
-<img src="assets/skills-grid.svg" width="100%" alt="DevOps skills: Docker, Kubernetes, Helm, Azure, AWS, Python, Bash, GitHub Actions, Jenkins, Argo CD, PostgreSQL, Terraform and Ansible">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/skills-grid-mobile.svg">
+  <img src="assets/skills-grid.svg" width="100%" alt="DevOps skills: Docker, Kubernetes, Helm, Azure, AWS, Python, Bash, GitHub Actions, Jenkins, Argo CD, PostgreSQL, Terraform and Ansible">
+</picture>
 
 <sub>Skills developed through hands-on projects and training. Professional experience and credentials are detailed in my CV.</sub>
-
-
 
 ---
 
