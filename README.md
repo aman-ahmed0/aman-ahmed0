@@ -22,64 +22,6 @@
   <a href="Ahmed_Aman_CV.pdf" title="View Ahmed Aman's CV (PDF)"><img src="assets/document.svg" width="40" height="40" alt="">&nbsp;<strong>CV (PDF)</strong></a>
 </p>
 
-## My Skills
-
-### <img src="assets/section-dot.svg" width="18" height="18" alt=""> Cloud Providers
-
-<p align="center">
-  <img src="assets/skill-amazonwebservices.svg" height="56" alt="AWS" title="AWS">
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/skill-azure.svg" height="56" alt="Microsoft Azure" title="Microsoft Azure">
-</p>
-
-### <img src="assets/section-dot.svg" width="18" height="18" alt=""> CI/CD &amp; GitOps
-
-<p align="center">
-  <img src="assets/skill-githubactions.svg" height="56" alt="GitHub Actions" title="GitHub Actions">
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/skill-jenkins.svg" height="56" alt="Jenkins" title="Jenkins">
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/skill-argocd.svg" height="56" alt="Argo CD" title="Argo CD">
-</p>
-
-### <img src="assets/section-dot.svg" width="18" height="18" alt=""> Infrastructure as Code &amp; Automation
-
-<p align="center">
-  <img src="assets/skill-terraform.svg" height="56" alt="Terraform" title="Terraform">
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/skill-ansible.svg" height="56" alt="Ansible" title="Ansible">
-</p>
-
-### <img src="assets/section-dot.svg" width="18" height="18" alt=""> Containerization
-
-<p align="center">
-  <img src="assets/skill-docker.svg" height="56" alt="Docker" title="Docker and Docker Compose">
-</p>
-
-### <img src="assets/section-dot.svg" width="18" height="18" alt=""> Container Orchestration
-
-<p align="center">
-  <img src="assets/skill-kubernetes.svg" height="56" alt="Kubernetes" title="Kubernetes and AKS">
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/skill-helm.svg" height="56" alt="Helm" title="Helm">
-</p>
-
-### <img src="assets/section-dot.svg" width="18" height="18" alt=""> Programming / Scripting
-
-<p align="center">
-  <img src="assets/skill-python.svg" height="56" alt="Python" title="Python">
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/skill-bash.svg" height="56" alt="Bash" title="Bash">
-</p>
-
-### <img src="assets/section-dot.svg" width="18" height="18" alt=""> Databases
-
-<p align="center">
-  <img src="assets/skill-postgresql.svg" height="56" alt="PostgreSQL" title="PostgreSQL">
-</p>
-
-<sub>Skills developed through hands-on projects and training. Professional experience and credentials are detailed in my CV.</sub>
-
 ## Projects
 
 <a href="https://github.com/aman-ahmed0/homeoffice-commerce">
@@ -103,11 +45,20 @@
 
 **[Python Web App](https://github.com/aman-ahmed0/webAppPy)** is my earlier container-packaging and AWS provisioning project, not a complete automated deployment.
 
+
+## 🛠️ Technologies & Tools
+
+<img src="assets/skills-grid.svg" width="100%" alt="DevOps skills: Docker, Kubernetes, Helm, Azure, AWS, Python, Bash, GitHub Actions, Jenkins, Argo CD, PostgreSQL, Terraform and Ansible">
+
+<sub>Skills developed through hands-on projects and training. Professional experience and credentials are detailed in my CV.</sub>
+
+
+
 ---
 
 <p align="center">
   <strong>Open to DevOps &amp; Cloud Engineering opportunities</strong><br>
-  Especially remote roles from Egypt or abroad.
+  Fine with remote roles from Egypt or abroad.
 </p>
 
 <p align="center">
